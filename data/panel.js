@@ -1,8 +1,3 @@
-$('#header').remove();
-$('.side').remove();
-$('.footer-parent').remove();
-$('#siteTable').remove();
-$('#progressIndicator').remove();
-$('.debuginfo').remove();
-$('section').remove();
+$('.thebutton-form').prependTo('body');
+$('body').children().not('.thebutton-form').hide();
 $('.content').css({"margin" : "auto"});
